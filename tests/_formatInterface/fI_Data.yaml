@@ -1,0 +1,60 @@
+---
+
+#Good data set for _formatInterface
+Good_Data:
+    - Hu0/0/0/0
+    - Hu0/0/0/18
+    - Hu0/0/0/3
+    - FaEthernet1/32
+    - GigabitEthernet0/5/0/0
+    - GigabitEthernet0/5/0/0.1
+    - TenGigE0/3/0/0
+    - TenGigabitEthernet0/4/5/7
+    - MgmtEth0/RP0/CPU0/0
+    - HundredGigE0/0/0/19
+    - HundredGigE0/0/0/47
+    - FortyGigE0/5/0/47
+    - FoGigE0/0/0/32
+    - FastEthernet1/45
+    - GigE0/0/0/0
+    - GigE0/0/0/1
+    - GigEthernet0/0/0/2
+
+Good_Formated:
+    - HundredGigE0/0/0/0
+    - HundredGigE0/0/0/18
+    - HundredGigE0/0/0/3
+    - FastE1/32
+    - GigE0/5/0/0
+    - GigE0/5/0/0.1
+    - TenGigE0/3/0/0
+    - TenGigE0/4/5/7
+    - MgmtE0/RP0/CPU0/0
+    - HundredGigE0/0/0/19
+    - HundredGigE0/0/0/47
+    - FortyGigE0/5/0/47
+    - FortyGigE0/0/0/32
+    - FastE1/45
+    - GigE0/0/0/0
+    - GigE0/0/0/1
+    - GigE0/0/0/2
+
+Bad_Data:
+    - TwentyFiveGig0/25
+    - HundredGigE0/0/0/0
+    - HundredGigE0/0/0/18
+    - HundredGigE0/0/0/3
+    - FastE1/32
+    - GigE0/5/0/0
+    - GigE0/5/0/0.1
+    - TenGigE0/3/0/0
+    - TenGigE0/4/5/7
+    - MgmtE0/RP0/CPU0/0
+    - HundredGigE0/0/0/19
+    - HundredGigE0/0/0/47
+    - FortyGigE0/5/0/47
+    - FortyGigE0/0/0/32
+    - FastE1/45
+    - GigE0/0/0/0
+    - GigE0/0/0/1
+    - GigE0/0/0/2

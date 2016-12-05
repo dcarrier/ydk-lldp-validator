@@ -44,20 +44,21 @@ In the above entry leaf1 is the node that we are validating. Leaf1 is connecting
 Please refer to the ```topology.dot``` file for more details!
 
 ## Example
-1. First I start the script: ```python call_lldp.py ssh://user:pass@ipaddress```
-2. Based off of the supplied ```topology.dot``` file the ```lldp_validator``` validates that the scanned node lldp neighbor information on-box matches the supplied ```topology.dot```.
-3. A successful validation may look something like this in tty:
-  ```bash
+* First I start the script: ```python call_lldp.py ssh://user:pass@ipaddress```
+* Based off of the supplied ```topology.dot``` file the ```lldp_validator``` validates that the scanned node lldp neighbor information on-box matches the supplied ```topology.dot```:
+```bash
   Scanned Node: leaf1
   Format: {Node : [{RECEIVED (Device Interface) : EXPECTED (Dot Interface)}]
   Everything is looking good
-  ```
-4. An unsuccesful validation will show the interface that the device is connected on and what the DOT file expected:
- ```bash
- Scanned Node: leaf1
- Format: {Node : [{RECEIVED (Device Interface) : EXPECTED (Dot Interface)}]
- defaultdict(<type 'list'>, {'spine3': [{'FortyGigE0/0/0/0': 'FortyGigE0/0/0/2'}]})
- ```
+```
+
+* An unsuccesful validation will show the interface that the device is connected on and what the DOT file expected:
+```bash
+Scanned Node: leaf1
+Format: {Node : [{RECEIVED (Device Interface) : EXPECTED (Dot Interface)}]
+defaultdict(<type 'list'>, {'spine3': [{'FortyGigE0/0/0/0': 'FortyGigE0/0/0/2'}]})
+```
+
 ## Running the tests
 
 To be updated with more unit tests and instructions
@@ -82,4 +83,5 @@ Please feel free to fork and contribute as you see fit! Contribute.md to be adde
 
 * ***Bruce McDougall***
 * ***Santiago Alvarez***
+
 
